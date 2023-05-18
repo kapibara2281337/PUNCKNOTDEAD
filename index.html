@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- site header -->
+    <header class="bg-gradient-to-r from-[#095ACD] to-[#006AFF]">
+        <nav class="mx-auto flex max-w-7xl items-center justify-around p-6 lg:px-8" aria-label="Global">
+            <div class="flex">
+                <a href="#" class="-m-1.5 p-1.5">
+                    <span class="sr-only">Your Company</span>
+                    <p class="font-semibold text-4xl text-[#fff]">Pressa</p>
+                </a>
+            </div>
+            <div class="flex lg:hidden items-center">
+                <button type="button"
+                    class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700">
+                    <span class="sr-only">Open main menu</span>
+                    <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                        aria-hidden="true">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                    </svg>
+                </button>
+            </div>
+            <div class="hidden items-center lg:flex lg:gap-x-12">
+                <input
+                    class="bg-[#ffffff1a] rounded-[5px] px-[18px] py-[10px] font-normal text-[14px] outline-none text-white"
+                    type="text" placeholder="Izlash" />
+                <a href="#" class="text-sm font-semibold leading-6 text-white">Features</a>
+                <a href="#" class="text-sm font-semibold leading-6 text-white">Marketplace</a>
+                <a href="#" class="text-sm font-semibold leading-6 text-white">Company</a>
+                <a href="#" class="text-white font-semibold px-[20px] py-[15px] bg-[#FE8B37]">+ E’lon berish</a>
+            </div>
+        </nav>
+        <!-- Mobile menu, show/hide based on menu open state. -->
+        <div class="lg:hidden" role="dialog" aria-modal="true">
+            <!-- Background backdrop, show/hide based on slide-over state. -->
+            <div class="fixed inset-0 z-10"></div>
+            <div
+                class="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
+                <div class="flex items-center justify-center">
+                    <a href="#" class="-m-1.5 p-1.5">
+                        <span class="sr-only">Your Company</span>
+                        <img class="h-8 w-auto" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
+                            alt="" />
+                    </a>
+                    <button type="button" class="-m-2.5 rounded-md p-2.5 text-gray-700">
+                        <span class="sr-only">Close menu</span>
+                        <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                            aria-hidden="true">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                        </svg>
+                    </button>
+                </div>
+                <div class="mt-6 flow-root">
+                    <div class="-my-6 divide-y divide-gray-500/10">
+                        <div class="space-y-2 py-6">
+                            <a href="#"
+                                class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Features</a>
+                            <a href="#"
+                                class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Marketplace</a>
+                            <a href="#"
+                                class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Company</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="ads">
+        <div class="card_ads_wraper w-[407px] h-[692px]">
+            <div class="card">
+                <img src="img/1.png" alt="" width="407" height="417">
+                <p class="font-semibold text-[24px] text-[#333333] p-[30px]">Alisher Isaevdan biznes va IT boyicha master klass</p>
+                <div class="addilustrat grid grid-cols-2">
+                    <p class="text-ig"><i class="fa-solid fa-user text-[#006AFF]"></i>alisher isaev</p>
+                    <p class="text-ig"><i class="fa-regular fa-calendar text-[#006AFF]"></i>17/01/2023</p>
+                    <p class="text-ig"><i class="fa-solid fa-globe text-[#006AFF]"></i>online</p>
+                    <p class="text-ig"><i class="fa-solid fa-tv text-[#006AFF]"></i>Tadbirkor</p>
+                    <p class="text-ig"><i class="fa-regular fa-clock text-[#006AFF]"></i>15:00</p>
+                    <p class="text-ig"><i class="fa-regular fa-eye text-[#006AFF]"></i>2550</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="ads">
+        <div class="card_ads_wraper w-[407px] h-[692px]">
+            <div class="card">
+                <img src="img/2.png" alt="" width="407" height="417">
+                <p class="font-semibold text-[24px] text-[#333333] p-[30px]">Jahongir G’ulamovdan dizayn sohasi bo’yicha master klass</p>
+                <div class="addilustrat grid grid-cols-2">
+                    <p class="text-ig"><i class="fa-solid fa-user text-[#006AFF]"></i>alisher isaev</p>
+                    <p class="text-ig"><i class="fa-regular fa-calendar text-[#006AFF]"></i>17/01/2023</p>
+                    <p class="text-ig"><i class="fa-solid fa-globe text-[#006AFF]"></i>oflline</p>
+                    <p class="text-ig"><i class="fa-solid fa-tv text-[#006AFF]"></i>Grafik dizayner</p>
+                    <p class="text-ig"><i class="fa-regular fa-clock text-[#006AFF]"></i>15:00</p>
+                    <p class="text-ig"><i class="fa-regular fa-eye text-[#006AFF]"></i>2550</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="ads">
+        <div class="card_ads_wraper w-[407px] h-[692px]">
+            <div class="card">
+                <img src="img/3.png" alt="" width="407" height="417">
+                <p class="font-semibold text-[24px] text-[#333333] p-[30px]">Yuksalish loyihasi AQSHda ovozli suhbat</p>
+                <div class="addilustrat grid grid-cols-2">
+                    <p class="text-ig"><i class="fa-solid fa-user text-[#006AFF]"></i>MuhammadAli Eshonqulov</p>
+                    <p class="text-ig"><i class="fa-regular fa-calendar text-[#006AFF]"></i>17/01/2023</p>
+                    <p class="text-ig"><i class="fa-solid fa-globe text-[#006AFF]"></i>oflline</p>
+                    <p class="text-ig"><i class="fa-solid fa-tv text-[#006AFF]"></i>Biznesmen</p>
+                    <p class="text-ig"><i class="fa-regular fa-clock text-[#006AFF]"></i>21:00</p>
+                    <p class="text-ig"><i class="fa-regular fa-eye text-[#006AFF]"></i>2550</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="ads">
+        <div class="card_ads_wraper w-[407px] h-[692px]">
+            <div class="card">
+                <img src="img/4.png" alt="" width="407" height="417">
+                <p class="font-semibold text-[24px] text-[#333333] p-[30px]">Sadoqat Kaziyevadan UI/UX bo’yicha master klass</p>
+                <div class="addilustrat grid grid-cols-2">
+                    <p class="text-ig"><i class="fa-solid fa-user text-[#006AFF]"></i>Sadoqat Kaziyeva</p>
+                    <p class="text-ig"><i class="fa-regular fa-calendar text-[#006AFF]"></i>21 / 10 / 2022</p>
+                    <p class="text-ig"><i class="fa-solid fa-globe text-[#006AFF]"></i>oflline</p>
+                    <p class="text-ig"><i class="fa-solid fa-tv text-[#006AFF]"></i>UI/UX designer</p>
+                    <p class="text-ig"><i class="fa-regular fa-clock text-[#006AFF]"></i>15:00</p>
+                    <p class="text-ig"><i class="fa-regular fa-eye text-[#006AFF]"></i>2550</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="ads">
+        <div class="card_ads_wraper w-[407px] h-[692px]">
+            <div class="card">
+                <img src="img/5.png" alt="" width="407" height="417">
+                <p class="font-semibold text-[24px] text-[#333333] p-[30px]">Alisher Isaevdan biznes va IT boyicha master klass</p>
+                <div class="addilustrat grid grid-cols-2">
+                    <p class="text-ig"><i class="fa-solid fa-user text-[#006AFF]"></i>alisher isaev</p>
+                    <p class="text-ig"><i class="fa-regular fa-calendar text-[#006AFF]"></i>17/01/2023</p>
+                    <p class="text-ig"><i class="fa-solid fa-globe text-[#006AFF]"></i>online</p>
+                    <p class="text-ig"><i class="fa-solid fa-tv text-[#006AFF]"></i>Tadbirkor</p>
+                    <p class="text-ig"><i class="fa-regular fa-clock text-[#006AFF]"></i>15:00</p>
+                    <p class="text-ig"><i class="fa-regular fa-eye text-[#006AFF]"></i>2550</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="card_ads_wraper w-[407px] h-[692px]">
+        <div class="card">
+            <img src="img/6.png" alt="" width="407" height="417">
+            <p class="font-semibold text-[24px] text-[#333333] p-[30px]">Jahongir G’ulamovdan dizayn sohasi bo’yicha master klass</p>
+            <div class="addilustrat grid grid-cols-2">
+                <p class="text-ig"><i class="fa-solid fa-user text-[#006AFF]"></i>Sadoqat Kaziyeva</p>
+                <p class="text-ig"><i class="fa-regular fa-calendar text-[#006AFF]"></i>21 / 10 / 2022</p>
+                <p class="text-ig"><i class="fa-solid fa-globe text-[#006AFF]"></i>oflline</p>
+                <p class="text-ig"><i class="fa-solid fa-tv text-[#006AFF]"></i>UI/UX designer</p>
+                <p class="text-ig"><i class="fa-regular fa-clock text-[#006AFF]"></i>15:00</p>
+                <p class="text-ig"><i class="fa-regular fa-eye text-[#006AFF]"></i>2550</p>
+            </div>
+        </div>
+    </div>
+<div class="ads">
+    <div class="card_ads_wraper w-[407px] h-[692px]">
+        <div class="card">
+            <img src="img/7.png" alt="" width="407" height="417">
+            <p class="font-semibold text-[24px] text-[#333333] p-[30px]">Alisher Isaevdan biznes va IT boyicha master klass</p>
+            <div class="addilustrat grid grid-cols-2">
+                <p class="text-ig"><i class="fa-solid fa-user text-[#006AFF]"></i>alisher isaev</p>
+                <p class="text-ig"><i class="fa-regular fa-calendar text-[#006AFF]"></i>17/01/2023</p>
+                <p class="text-ig"><i class="fa-solid fa-globe text-[#006AFF]"></i>online</p>
+                <p class="text-ig"><i class="fa-solid fa-tv text-[#006AFF]"></i>Tadbirkor</p>
+                <p class="text-ig"><i class="fa-regular fa-clock text-[#006AFF]"></i>15:00</p>
+                <p class="text-ig"><i class="fa-regular fa-eye text-[#006AFF]"></i>2550</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="card_ads_wraper w-[407px] h-[692px]">
+    <div class="card">
+        <img src="img/8.png" alt="" width="407" height="417">
+        <p class="font-semibold text-[24px] text-[#333333] p-[30px]">Jahongir G’ulamovdan dizayn sohasi bo’yicha master klass</p>
+        <div class="addilustrat grid grid-cols-2">
+            <p class="text-ig"><i class="fa-solid fa-user text-[#006AFF]"></i>Sadoqat Kaziyeva</p>
+            <p class="text-ig"><i class="fa-regular fa-calendar text-[#006AFF]"></i>21 / 10 / 2022</p>
+            <p class="text-ig"><i class="fa-solid fa-globe text-[#006AFF]"></i>oflline</p>
+            <p class="text-ig"><i class="fa-solid fa-tv text-[#006AFF]"></i>UI/UX designer</p>
+            <p class="text-ig"><i class="fa-regular fa-clock text-[#006AFF]"></i>15:00</p>
+            <p class="text-ig"><i class="fa-regular fa-eye text-[#006AFF]"></i>2550</p>
+        </div>
+    </div>
+</div>
+</div>
+<div class="ads">
+    <div class="card_ads_wraper w-[407px] h-[692px]">
+        <div class="card">
+            <img src="img/9.png" alt="" width="407" height="417">
+            <p class="font-semibold text-[24px] text-[#333333] p-[30px]">Yuksalish loyihasi AQSHda ovozli suhbat</p>
+            <div class="addilustrat grid grid-cols-2">
+                <p class="text-ig"><i class="fa-solid fa-user text-[#006AFF]"></i>MuhammadAli Eshonqulov</p>
+                <p class="text-ig"><i class="fa-regular fa-calendar text-[#006AFF]"></i>17/01/2023</p>
+                <p class="text-ig"><i class="fa-solid fa-globe text-[#006AFF]"></i>oflline</p>
+                <p class="text-ig"><i class="fa-solid fa-tv text-[#006AFF]"></i>Biznesmen</p>
+                <p class="text-ig"><i class="fa-regular fa-clock text-[#006AFF]"></i>21:00</p>
+                <p class="text-ig"><i class="fa-regular fa-eye text-[#006AFF]"></i>2550</p>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
